@@ -33,15 +33,15 @@
 
 -	**Javascript Vanilla (arrays):**
 
-  - Usando sólo métodos de array **(.map, .reduce, .filter, etc)** y utilizando la siguiente lista de números; realiza las siguientes acciones.
+    - Usando sólo métodos de array **(.map, .reduce, .filter, etc)** y utilizando la siguiente lista de números; realiza las siguientes acciones.
 
-   **[32, 4, 66, 12, 12, 67, 89, 9, 0, 4, 55, 14, 6, 7, 8, 190, 5, 4]**
-   
-   1. Calcula el promedio.
+    **[32, 4, 66, 12, 12, 67, 89, 9, 0, 4, 55, 14, 6, 7, 8, 190, 5, 4]**
+    
+    1. Calcula el promedio.
 
-   2. Encuentra el número que más se repite.
-   
-   3. Ordénalos de mayor a menor, sin que se repitan.
+    2. Encuentra el número que más se repite.
+    
+    3. Ordénalos de mayor a menor, sin que se repitan.
 
 - **React components:**
 
