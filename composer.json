@@ -1,0 +1,29 @@
+{
+ "name": "sore/sore-test",
+ "type": "project",
+ "description": "SORE Test",
+ "require": {
+  "phpunit/phpunit": "^9.4"
+ },
+ "autoload": {
+  "psr-4": {
+   "Solution\\": "php/solution"
+  }
+ },
+ "config": {
+  "optimize-autoloader": true,
+  "preferred-install": "dist",
+  "sort-packages": true
+ },
+ "autoload-dev": {
+  "psr-4": {
+   "Tests\\": "php/tests"
+  }
+ },
+ "authors": [
+  {
+   "name": "Joan Andrés Lara Mora",
+   "email": "joandres52752lm@gmail.com"
+  }
+ ]
+}
