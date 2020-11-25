@@ -25,17 +25,20 @@
 
 - **Javascript Vanilla (string):**
 
-  - Crea una función que elimine los espacios extras entre las palabras, ej. **(“Hello   world” => “Hello world”)**.
+  - Crea una función que elimine los espacios extras entre las palabras. <pre>Ej. **(“Hello   world” => “Hello world”)**</pre>
 
-  - Crea una función que convierta en mayúsculas la primera palabra de toda la frase, ej. **(“Good morning, Pablo” => “Good Morning, Pablo”)**
+  - Crea una función que convierta en mayúsculas la primera palabra de toda la frase. <pre>Ej. **(“Good morning, Pablo” => “Good Morning, Pablo”)**</pre>
 
-  - Crea una función que fusioné ambos procedimientos anteriores, (eliminar espacios y convertir en mayúsculas la primera palabra de cada frase). Ej. **(“    Hello pablo,      good morning!!!” => “Hello Pablo, Good Morning!!!”)**.
-
+  - Crea una función que fusioné ambos procedimientos anteriores, (eliminar espacios y convertir en mayúsculas la primera palabra de cada frase). <pre>Ej. **(“    Hello pablo,      good morning!!!” => “Hello Pablo, Good Morning!!!”)**.</pre>
 -	**Javascript Vanilla (arrays):**
 
     - Usando sólo métodos de array **(.map, .reduce, .filter, etc)** y utilizando la siguiente lista de números; realiza las siguientes acciones.
 
-    **[32, 4, 66, 12, 12, 67, 89, 9, 0, 4, 55, 14, 6, 7, 8, 190, 5, 4]**
+    ```javascript
+
+     [32, 4, 66, 12, 12, 67, 89, 9, 0, 4, 55, 14, 6, 7, 8, 190, 5, 4]
+     
+    ```
     
     1. Calcula el promedio.
 
