@@ -10,14 +10,14 @@
 
 <img src="src/windows-icon.png"
      alt="Markdown Monster icon"
-     style="width: 12px" /> Windows:
+     width="12px"/> Windows:
 
 > `call install.bat`
 
 ## Ejecucción de las pruebas de integración
 <img src="src/windows-icon.png"
      alt="Markdown Monster icon"
-     style="width: 12px" /> Windows:
+     width="12px" /> Windows:
 
 > `call test.bat`
 
