@@ -1,1 +1,1 @@
-npm run install && composer install
+npm install && composer install
