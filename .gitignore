@@ -1,3 +1,4 @@
 /node_modules/
 /vendor/
+/coverage/
 .phpunit.result.cache
