@@ -9,7 +9,12 @@ export default function ListObjects({ data }){
  return (
   <div>
    {items.map((obj, i) => (
-    <KeysValues key={i} obj={obj}/>
+    <KeysValues
+     key={i}
+     obj={obj}
+     onSelect={() => setIndexActive(i)}
+     className={indexActive === i ? 'active' : ''}
+    />
    ))}
   </div>
  );
