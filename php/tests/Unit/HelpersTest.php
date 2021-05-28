@@ -16,7 +16,7 @@ class HelpersTests extends TestCase{
 
  public function testSetAccessibleGlobalInt(){
   global $_ACCESSIBLE_GLOBAL_INT;
-  $this->assertNull($_ACCESSIBLE_GLOBAL_INT);
+  $this->assertSame(5, $_ACCESSIBLE_GLOBAL_INT);
   setAccesibleGlobalInt(M_PI);
   $this->assertSame($_ACCESSIBLE_GLOBAL_INT, M_PI);
  }

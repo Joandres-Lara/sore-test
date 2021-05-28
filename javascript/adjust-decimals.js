@@ -1,4 +1,11 @@
-export default function adjustDecimal(float, adjust = 2){
+/**
+ * Adjusta el número a los decimales.
+ *
+ * @param {float} float
+ * @param {int} adjust
+ * @returns {float}
+ */
+function adjustDecimals(float, adjust = 2){
  float = ('' + float);
 
  const indexOf = float.indexOf('.');
