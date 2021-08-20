@@ -13,7 +13,7 @@ class ObjectToJson implements Jsonable, ArrayAccess{
 
  public static function parse(string $json) : ObjectToJson{
   // Esto sólo es un ejemplo
-  return new ObjectToJson([]);
+  return new ObjectToJson([$string => $value]);
  }
 
  public function __construct(array $value){
